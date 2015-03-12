@@ -166,6 +166,8 @@ fieldset {
   margin: 0 2px;
   border: 1px solid #c0c0c0;
 }
+
+
 legend {
   padding: 0;
   border: 0;
@@ -2073,6 +2075,11 @@ fieldset[disabled] .btn-default.active {
   color: #fff;
   background-color: #333;
 }
+
+.btn-lg.round {
+    border-radius: 16px;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #428bca;

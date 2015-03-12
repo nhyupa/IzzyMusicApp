@@ -23,7 +23,7 @@ and open the template in the editor.
         <link href="assets/color/default.css" rel="stylesheet">
     </head>
     <body id="page-top">
-      
+        
         <!-- Preloader -->
         <div id="preloader">
             <div id="load"></div>
@@ -46,8 +46,19 @@ and open the template in the editor.
                         <div class="col-md-1"></div>
                         <div class="col-md-10">
                             <div class="wow fadeInLeft" data-wow-delay="0.2s">
-                                <div class="service-box">
-                                    <div class="service-desc">
+                              <div class="row-fluid">
+                                    
+                                    <div class="text-left">
+                                        <button class="btn-lg btn-primary" onclick="goBack()">Go Back</button>
+                                        
+                                    </div>
+                                    
+                                </div>
+                                <div class="row">
+                                    
+                                </div>
+                                <br/>
+                                <div class="row">
                                         <h5>Even Notes</h5>
                                         <p>The violin, also known as a fiddle, 
                                             is a string instrument, 
@@ -55,8 +66,8 @@ and open the template in the editor.
                                             It is the smallest, highest-pitched member of the violin family of string instruments, which also includes the viola, and the cello. 
                                             The modern word is derived from the Italian word violino, literally 'small viola'.
                                         </p>
-                                    </div>
                                 </div>
+                                 
                             </div>
                         </div>
                         <div class="col-md-1">
@@ -71,9 +82,13 @@ and open the template in the editor.
             </div>
         </section>
         <!-- /Section: Landing Page -->
+        <script>
+          function goBack() {
+              window.history.back()
+          }
+        </script>
         
-        
-         <!-- Core JavaScript Files -->
+        <!-- Core JavaScript Files -->
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/jquery.easing.min.js"></script>	
